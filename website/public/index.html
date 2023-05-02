@@ -12,8 +12,36 @@
         <h1>Bem vindo a gestão de produtos</h1>
     </div>
     <div class="container">
-        <div class="menu"><h1>ola</h1></div>
-        <div class="productUseCase"><h1>ola2</h1></div>
+        <div class="menu">
+            <h2>Gerir Produtos</h2>
+            <ul class="menu-items">
+                <li><a href="">Criar Produto</a></li>
+                <li><a href="">Editar Produto</a></li>
+                <li><a href="">Consultar Produto</a></li>
+                <li><a href="">Deletar Produto</a></li>
+            </ul>
+        </div>
+        <div class="productUseCase">
+            <h2>Criar Produto</h2>
+            <form class="form-style" action="">
+                <div>
+                    <label for="fnome">Nome</label><br/>
+                    <input id="fnome" name="nome" type="text" placeholder="Digite seu nome">
+                </div>
+                <div>
+                    <label for="fpreco">Preço</label><br/>
+                    <input id="fpreco" name="preco" type="text" placeholder="Digite seu preço">
+                </div>
+                <div>
+                    <label for="festoque">Estoque</label><br/>
+                    <input id="festoque" name="estoque" type="text" placeholder="Digite seu estoque">
+                </div>
+                <div class="form-button">
+                    <input type="submit" name="salvar" value="Salvar"/>
+                </div>
+                
+            </form>
+        </div>
     </div>
 </body>
 </html>
